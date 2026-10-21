@@ -1,0 +1,11 @@
+print("=====================\n" + "AI RESEARCHER PROFILE\n" + "=====================\n" )
+full_name= input("What is your name?\n")
+university = input("Which university did you graduate from?\n")
+qualification= input("What is your qualification?\n")
+area= input("Which AI research area interests you?\n")
+uni_attend= input("Which university would you like to attend?\n")
+goal= input("What is your career goal?\n")
+
+print("=====================\n" + "YOUR RESEARCH PROFILE\n" + "=====================\n" )
+print("Name: " + full_name + "\nQualification: " + qualification + "\nPrevious University: " + university + "\n\n" + "Research Interest: " + area+ "\nTarget University: " + uni_attend + "\nCareer Goal: " + goal )
+print("=====================\n\n" + "Welcome " + full_name + "!\n\n" + "Your journey towards becoming a\n" + goal + "starts today!\n\n" + "=====================")
